@@ -1,0 +1,31 @@
+{
+  "name": "arham-caters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "serve": " esbuild src/Main.bs.js --bundle --outfile=dist/app.js --watch",
+    "start": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskanbararia/arham-caters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskanbararia/arham-caters/issues"
+  },
+  "homepage": "https://github.com/muskanbararia/arham-caters#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.39",
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
